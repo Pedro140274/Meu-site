@@ -1,0 +1,84 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do menu de navegação */
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Estilo do cabeçalho (título da página) */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Estilo para seções de conteúdo */
+.section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+}
+
+/* Estilo para formulário de contato */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Outros estilos específicos podem ser adicionados conforme necessário */
